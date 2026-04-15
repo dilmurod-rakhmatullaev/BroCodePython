@@ -1,0 +1,20 @@
+from if_name_main_script1 import *
+
+def favorite_drink(drink):
+    print(f"Your favorite drink is {drink}")
+
+def main():
+    print("This is script2")
+    favorite_food("sushi")
+    favorite_drink("coffee")
+    print("Goodbye")
+
+if __name__ == '__main__':
+    main()
+
+"""
+This is script2
+Your favorite food is sushi
+Your favorite drink is coffee
+Goodbye
+"""
